@@ -10,7 +10,7 @@ export default function Home() {
         <meta property="og:title" content="Essence - Empreendimento em Tramandaí | Tramandaí Imóveis" />
         <meta property="og:site_name" content="Tramandaí Imóveis" />
 
-        <meta property="og:image" content="http://receitasdecodigo.com.br/seo/image.jpg" />
+        <meta property="og:image" content="" />
         <meta property="og:image:type" content="image/jpeg" />
         <meta property="og:image:width" content="800" />
         <meta property="og:image:height" content="600" />
