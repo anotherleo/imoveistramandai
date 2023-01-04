@@ -1,5 +1,8 @@
 import Head from 'next/head'
-import seo from '../seo/theroof.json'
+import Link from 'next/link'
+import Footer from '../components/Footer'
+import Header from '../components/Header'
+import '../styles/TheRoof.module.scss'
 
 export default function Home() {
   return (
@@ -23,6 +26,10 @@ export default function Home() {
 
 				<link rel="canonical" href="http://www.imoveistramandai.com.br/theroof" />
       </Head>
+
+			<Header />
+			<Link href="/">Home</Link>
+			<Footer />
     </>
   )
 }
